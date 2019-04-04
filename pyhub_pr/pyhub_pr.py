@@ -22,7 +22,7 @@ def create_pull_request(token, title, body, base, head, github_url, organisation
         "head": str(head)
     }
 
-    response = requests.post(github_url + '/repos/' + organisation + '/' + repository + '/pulls', headers=headers, data=json.dumps(data), verify=False)
+    response = requests.post(github_url + '/repos/' + organisation + '/' + repository + '/pulls', headers=headers, data=json.dumps(data), verify=True)
 
     if response.status_code not in range(200, 299):
         raise Exception("Response %d: %s" % (response.status_code, response.content))
