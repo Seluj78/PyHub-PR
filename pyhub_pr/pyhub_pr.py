@@ -89,5 +89,6 @@ def main():
     )
 
     args = parser.parse_args()
-    create_pull_request(args.username, args.token, args.title, args.body, args.base, args.head, args.github_url, args.organisation, args.repo)
+    create_pull_request(args.token, args.title, args.body, args.base, args.head, args.github_url, args.organisation, args.repo)
     # TODO: Across forks
+    # TODO: Check if current branch has any changes
