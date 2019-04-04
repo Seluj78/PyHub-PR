@@ -72,7 +72,6 @@ def main():
         type=str,
         default=get_base_branch_name(),
         help="Base branch to merge into",
-        required=True
     )
 
     parser.add_argument(
@@ -80,7 +79,6 @@ def main():
         type=str,
         default=get_current_branch_name(),
         help="Head branch to merge from",
-        required=True
     )
 
     parser.add_argument(
