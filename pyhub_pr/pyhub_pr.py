@@ -84,5 +84,4 @@ def main():
         args.organisation,
         args.repo,
     )
-    # TODO: Across forks
     # TODO: Check if current branch has any changes
