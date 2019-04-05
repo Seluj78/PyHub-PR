@@ -21,3 +21,5 @@ optional arguments:
   --github-url GITHUB_URL
                         Github API url
 ```
+
+Credit to [Newky](https://github.com/Newky/github-pull-request) for the original idea
