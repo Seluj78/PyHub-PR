@@ -8,7 +8,7 @@ with open("README.md") as readme:
 setuptools.setup(
     name="pyhub_pr",
     version='0.1.0',
-    description="Will create an issue from the command line with given parameters",
+    description="Will create an Pull Request on GitHub from the command line with given parameters",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Jules Lasne",
