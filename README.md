@@ -1,6 +1,8 @@
 # PyHub-PR
 Command line tool written in Python to create a PR on github
 
+## THIS PROJECT ISN'T CURRENTLY MAINTAINED. Maybe one day I'll get back to it.
+
 usage:
 ```
 usage: github_pr [-h] --organisation ORGANISATION --repo REPO --token TOKEN --title TITLE --body BODY [--base BASE] [--head HEAD]
